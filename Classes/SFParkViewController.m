@@ -83,7 +83,8 @@ static CLLocationDegrees INITIAL_LONGITUDE = -83.0042326;
 	lowMemoryMode = NO;
 	veryLowMemoryMode = NO;
 	//Live data source
-	serviceURL = @"http://api.sfpark.org/sfpark/rest/availabilityservice?radius=5.0&response=json&pricing=yes&version=1.5";
+//	serviceURL = @"http://api.sfpark.org/sfpark/rest/availabilityservice?radius=5.0&response=json&pricing=yes&version=1.5";
+    serviceURL = @"https://api.myjson.com/bins/1wg8y";
 
 	
 	//v1.4 test harness url
