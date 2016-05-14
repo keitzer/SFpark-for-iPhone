@@ -123,6 +123,7 @@
 		2899E5220DE3E06400AC0155 /* SFParkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SFParkViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* SFParkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SFParkViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A6748E61CE7C7F200297689 /* smart_park.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A6748E51CE7C7F200297689 /* smart_park.json */; };
 		4D5907FC134A4BE80081B3AE /* MyPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5907FB134A4BE80081B3AE /* MyPolyline.m */; };
 		C21299D712B2D4AA000DFBB3 /* Credits.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21299D612B2D4AA000DFBB3 /* Credits.xib */; };
 		C21299DF12B2D51C000DFBB3 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21299DE12B2D51C000DFBB3 /* FlipsideViewController.m */; };
@@ -314,6 +315,7 @@
 		28D7ACF60DDB3853001CB0EB /* SFParkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFParkViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* SFParkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFParkViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		2A6748E51CE7C7F200297689 /* smart_park.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smart_park.json; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SFPark_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFPark_Prefix.pch; path = ../SFPark_Prefix.pch; sourceTree = "<group>"; };
 		4D5907FA134A4BE80081B3AE /* MyPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPolyline.h; sourceTree = "<group>"; };
 		4D5907FB134A4BE80081B3AE /* MyPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPolyline.m; sourceTree = "<group>"; };
@@ -560,6 +562,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A6748E51CE7C7F200297689 /* smart_park.json */,
 				C298B2891836DE2B00CDD342 /* Images.xcassets */,
 				2899E5210DE3E06400AC0155 /* SFParkViewController.xib */,
 				01E6B838133408690033CFA0 /* Entitlements.plist */,
@@ -931,6 +934,7 @@
 				018BDEE313D1042300DC5FF6 /* key_grey@2x.png in Resources */,
 				C2C605831833F76900A68002 /* header_blue.png in Resources */,
 				018BDEE413D1042300DC5FF6 /* key_lightblue.png in Resources */,
+				2A6748E61CE7C7F200297689 /* smart_park.json in Resources */,
 				C2C604A81832FC4200A68002 /* button_refresh.png in Resources */,
 				018BDEE513D1042300DC5FF6 /* key_lightblue@2x.png in Resources */,
 				018BDEE613D1042300DC5FF6 /* key_lightgreen.png in Resources */,

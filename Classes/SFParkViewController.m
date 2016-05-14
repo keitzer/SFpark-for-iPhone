@@ -53,8 +53,8 @@ static float SPEED_THRESHOLD = 1.1176; // 2.5 mph == 1.1176 mps Walking speed te
 #else
 static float SPEED_THRESHOLD = 4.47; // 10.0 mph == 4.47 mps Driving speed threshold
 #endif
-static CLLocationDegrees INITIAL_LATITUDE = 37.78; // SF initial view
-static CLLocationDegrees INITIAL_LONGITUDE = -122.42; // SF initial view
+static CLLocationDegrees INITIAL_LATITUDE = 39.9811263;
+static CLLocationDegrees INITIAL_LONGITUDE = -83.0042326;
 
 
 #pragma mark -
@@ -645,7 +645,7 @@ static CLLocationDegrees INITIAL_LONGITUDE = -122.42; // SF initial view
 	label.text = @"Loading info screen.";
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"Credits" bundle:nil];
 	controller.delegate = self;
-	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	//controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentViewController:controller animated:YES completion:nil];
 	[controller release];
 }
