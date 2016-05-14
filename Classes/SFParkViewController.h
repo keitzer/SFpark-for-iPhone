@@ -55,7 +55,7 @@
 	IBOutlet UILabel *buildNumber;
 	IBOutlet UIButton *priceButton;
 	IBOutlet UIButton *availabilityButton;
-	__weak IBOutlet UIButton *infoButton;
+	IBOutlet UIButton *infoButton;
 //	__weak IBOutlet UISegmentedControl *dataSourceToggle;
 //	__weak IBOutlet UILabel *buildName;
 	
